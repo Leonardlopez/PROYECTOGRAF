@@ -92,7 +92,7 @@ function Abrir() {
         console.log(pza1);
     }
     else {
-        alert('No se puede abrir mas ');
+        alert('a llegado a su limite,No se puede abrir mas ');
     }
 }
 function Cerrar() {
@@ -123,7 +123,7 @@ function Cerrar() {
         console.log(pza1);
     }
     else {
-        alert('No se puede cerrar llego a su limite');
+        alert('No se puede cerrar a llegado a su limite');
     }
 }
 function pza12DerFunc() {

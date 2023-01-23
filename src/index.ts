@@ -111,7 +111,7 @@ function Abrir() {
   pza1++;
   console.log(pza1);
 
-  }else{alert('No se puede abrir mas ');}
+  }else{alert('a llegado a su limite,No se puede abrir mas ');}
 }
 
 function Cerrar() {
@@ -145,7 +145,7 @@ function Cerrar() {
   pza1--;
   console.log(pza1);
   
-  }else{alert('No se puede cerrar llego a su limite');}
+  }else{alert('No se puede cerrar a llegado a su limite');}
 }
 
 
