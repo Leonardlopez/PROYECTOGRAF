@@ -81,8 +81,8 @@ function decrDistFunc() {
 }
 
 function Abrir() {
-  let af = 70;
-   if(pza1<=10){
+  let af = 20;
+   if(pza1<=3){
     Rota3D.initRotate( obj.w[16], obj.w[18], -af*Math.PI/180);	
 
     for (let i = 15; i <= 18; i++){
@@ -115,8 +115,8 @@ function Abrir() {
 }
 
 function Cerrar() {
-  let af = 70;
-   if(pza1 > 0 && pza1 <= 20){
+  let af = 20;
+   if(pza1 > 0 && pza1 <= 4){
     Rota3D.initRotate( obj.w[16], obj.w[18], +af*Math.PI/180);	
 
     for (let i = 15; i <= 18; i++){

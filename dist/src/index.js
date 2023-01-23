@@ -65,8 +65,8 @@ function decrDistFunc() {
     vp(0, 0, 0.5);
 }
 function Abrir() {
-    var af = 70;
-    if (pza1 <= 10) {
+    var af = 20;
+    if (pza1 <= 3) {
         Rota3D.initRotate(obj.w[16], obj.w[18], -af * Math.PI / 180);
         for (var i = 15; i <= 18; i++) {
             obj.w[i] = Rota3D.rotate(obj.w[i]);
@@ -96,8 +96,8 @@ function Abrir() {
     }
 }
 function Cerrar() {
-    var af = 70;
-    if (pza1 > 0 && pza1 <= 20) {
+    var af = 20;
+    if (pza1 > 0 && pza1 <= 4) {
         Rota3D.initRotate(obj.w[16], obj.w[18], +af * Math.PI / 180);
         for (var i = 15; i <= 18; i++) {
             obj.w[i] = Rota3D.rotate(obj.w[i]);
